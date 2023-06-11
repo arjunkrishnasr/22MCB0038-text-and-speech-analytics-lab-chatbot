@@ -9,14 +9,17 @@ stopwords: A list of common words that can be ignored during text analysis.
 word_tokenize: A function for tokenizing sentences into words.
 
 Download NLTK resources:
+
 The code downloads the required NLTK resources by using the nltk.download() function. It downloads the punkt tokenizer and the stopwords corpus.
 
 Define the chatbot's responses:
+
 The qa_pairs dictionary stores a set of questions and their corresponding answers. You can modify this dictionary to add or remove questions and answers as per your requirements.
 
 Preprocess user input:
 
 The preprocess_input() function takes a text input and performs the following preprocessing steps:
+
 Converts the input to lowercase to ensure case insensitivity.
 Tokenizes the input into individual words using word_tokenize().
 Removes stopwords (common words like "is," "are," "the," etc.) from the tokenized words.
