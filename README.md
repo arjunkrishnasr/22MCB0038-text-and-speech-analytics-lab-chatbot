@@ -17,7 +17,7 @@ By combining these text analytics concepts, you can develop a chatbot that under
 Python provides a flexible and powerful environment for implementing text analytics-based chatbots. With the help of libraries like NLTK, you can perform text preprocessing, tokenization, and similarity calculations to build a chatbot that can effectively interact with users and provide relevant information or assistance.
 
 
-Here are the importannt steps done in the project
+Here are the important steps done in the project
 
 Import the necessary libraries:
 
